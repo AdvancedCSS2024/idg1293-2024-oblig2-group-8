@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 auto;
+  max-width: 62ch;
+  width: 30%;
+  text-align: center;
+}
+
+.poster-main {
+  margin: 0 auto;
+  max-width: 3600px;
+  width: 80%;
+  background-image: url(../vectors/poster-2_full_background.svg);
+  background-repeat: no-repeat;
+}
+.poster-main .moon-area {
+  margin: inherit;
+  max-width: 3600px;
+  width: 100%;
+}
+.poster-main .moon-area .happy_moon {
+  display: block;
+  max-width: 720px;
+  width: 16%;
+}
+.poster-main .moon-area .yellow_star {
+  display: block;
+  max-width: 180px;
+  width: 4%;
+}/*# sourceMappingURL=style.css.map */
