@@ -1,38 +1,177 @@
-// USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
 
+// USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
 body {
     font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    display: block;
     margin: 0 auto;
     max-width: 62ch;
     width: 30%;
+
     text-align: center;
 }
 
+p {
+    display: block;
+    position: absolute;
+    max-width: 62ch;
+    width: 40%;
+}
+
+.vector-image {
+    display: block;
+    position: absolute;
+}
+
 .poster-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
     max-width: 3600px;
-    width: 80%;
+    width: 90%;
+    min-height: 1000px;
     background-image: url(../vectors/poster-2_full_background.svg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    #heading {
+        color: darkblue;
+        margin: 0 70% 0 10%;
+        top: 10%;
+
+        #heading-span {
+            color: greenyellow;
+        }
+    }
+
+    #subheading {
+        margin: 0 70% 0 10%;
+        top: 13%;
+    }
+
+    .area {
+        margin: inherit;
+        max-width: 3456px;
+        width: 96%;
+    }
 
     .moon-area {
-        margin: inherit;
-        max-width: 3600px;
-        width: 100%;
+        min-height: 25%;
 
         .happy_moon {
-            display: block;
             max-width: 720px;
             width: 16%;
+
+            top: 25%;
+            left: 60%;
         }
 
         .yellow_star {
-            display: block;
             max-width: 180px;
             width: 4%;
         }
+
+        #star_1 {
+            top: 20%;
+            left: 75%;
+        }
+
+        #star_2 {
+            top: 25%;
+            left: 78%;
+            transform: rotate(270deg);  // Mirrors the star horizontally.
+        }
+
+        #car_paragraph {
+            max-width: 360px;
+            width: 16%;
+
+            top: 40%;
+            left: 30%;
+            font-size: x-large;
+        }
+
+        .car {
+            max-width: 720px;
+            width: 16%;
+
+            top: 40%;
+            left: 40%;
+        }
+    }
+
+    .people-area {
+        min-height: 25%;
+
+        .pollution-face {
+            max-width: 180px;
+            width: 4%;
+        }
+
+        #pollution-face_1 {
+            max-width: 180px;
+            width: 4%;
+
+            left: 8%;
+        }
+
+        #pollution-face_2 {
+            max-width: 180px;
+            width: 4%;
+
+            left: 12%;
+        }
+
+        #pollution-face_3 {
+            max-width: 180px;
+            width: 4%;
+
+            left: 16%;
+        }
+
+        #pollution-face_4 {
+            max-width: 180px;
+            width: 4%;
+
+            left: 20%;
+        }
+
+        #pollution-face_5 {
+            max-width: 180px;
+            width: 4%;
+
+            left: 24%;
+        }
+
+        .person_with_phone {
+            max-width: 540px;
+            width: 12%;
+        }
+
+        #person_with_phone_1 {
+            top: 40%;
+            left: 30%;
+        }
+
+        #person_with_phone_2 {
+            max-width: 360px;
+            width: 10%;
+
+            top: 35%;
+            left: 45%;
+        }
+
+        #person_with_phone_3 {
+            top: 40%;
+            left: 55%;
+        }
+    }
+
+    .earth-area {
+        min-height: 25%;
     }
 }
