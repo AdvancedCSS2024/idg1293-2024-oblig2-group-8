@@ -207,221 +207,185 @@ p {
         
         @keyframes pollution-floating {
             0% {transform: translateY(0);}
-            25% {transform: translateY(5%);}
+            25% {transform: translateY(10%);}
             50% {transform: translateY(0);}
-            75% {transform: translateY(-5%);}
+            75% {transform: translateY(-10%);}
             100% {transform: translateY(0);}
         }
 
+        @keyframes moving-people {
+            0% {transform: translateX(0);}
+            25% {transform: translateX(5%);}
+            50% {transform: translateX(0);}
+            75% {transform: translateX(-5%);}
+            100% {transform: translateX(0);}
+        }
+
         .pollution-face {
-            max-width: 180px;
-            width: 4%;
+            width: 12vw; //Må se om dette blir riktig
+            //width: 4vw;
         } 
-      
+        
         #pollution-face_1 {
-            max-width: 180px;
-            width: 2%;
+            width: 3vw;
+            left: 17vw;
+            top: 81vw;
 
-            //left: 8%;
-
-            transform: translate(19rem, 4rem);
-            animation: cycles 1s infinite;
+            animation: pollution-floating 3s infinite;
         }     
 
-        @keyframes cycles {
-            0% {transform: translate(19rem, 4rem);}
-            50% {transform: translate(19rem, 5rem);}
-            100% {transform: translate(19rem, 4rem);}
-        }
-
         #pollution-face_2 {
-            max-width: 180px;
-            width: 2%;
+            width: 3vw;
+            left: 28vw;
+            top: 80vw;
 
-            //left: 12%;
-
-            transform: translate(26rem, 3.5rem);
+            animation: pollution-floating 6s infinite;
         }
-       
-        #pollution-face_3 {
-            max-width: 180px;
-            width: 3%;
-            
-            //left: 16%;
 
-            transform: translateX(26rem);
-            //animation: cycles 1s infinite;
+        #pollution-face_3 {
+            max-width: 12vw;
+            width: 4vw;
+            top: 75vw;
+            left: 32vw;
+
+            animation: pollution-floating 3s infinite;
         }
 
         #pollution-face_4 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 84vw;
+            left: 34vw;
 
-            //left: 20%;
-
-            transform: translate(28rem, 6rem);   
-            //animation: cycles 1s infinite;         
+            animation: pollution-floating 6s infinite;       
         }
 
         #pollution-face_5 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 78vw;
+            left: 36vw;
 
-            //left: 24%;
-
-            transform: translate(29rem, 2rem); //Moves the element 31rem to the right, and 2rem down from its current position
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 3s infinite;
         }
 
         #pollution-face_6 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 73vw;
+            left: 43vw;
 
-            //left: 24%;
-
-            transform: translateX(33rem); //Moves the element 35rem to the right
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 6s infinite; 
         }
 
         #pollution-face_7 {
-            max-width: 180px;
-            width: 5%;
+            max-width: 12vw;
+            width: 6vw;
+            top: 72vw;
+            left: 56vw;
 
-            //left: 24%;
-
-            transform: translate(37rem, -0.5rem);
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 3s infinite;
         }
 
         #pollution-face_8 {
-            max-width: 180px;
-            width: 3%;
+            max-width: 12vw;
+            width: 4vw;
+            top: 68vw;
+            left: 73vw;
 
-            //left: 24%;
-
-            transform: translate(43rem, -2rem);
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 6s infinite; 
         }
 
         #pollution-face_9 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 74vw;
+            left: 75vw;
 
-            //left: 24%;
-
-            transform: translate(45rem, 1rem);
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 3s infinite;
         }
 
         #pollution-face_10 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 70vw;
+            left: 80vw;
 
-            //left: 24%;
-
-            transform: translate(50rem, -1rem);
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 5s infinite; 
         }
 
         #pollution-face_11 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 12vw;
+            width: 3vw;
+            top: 80vw;
+            left: 82vw;
 
-            //left: 24%;
-
-            transform: translate(51rem, 5rem);
-            //animation: cycles 1s infinite;
+            animation: pollution-floating 3s infinite;
         }
 
-
         .person_with_phone {
-            max-width: 540px;
-            width: 12%;
-            
+            max-width: 25vw;
+            width: 18vw;     
         }
 
         #person_with_phone_1 {
-            top: 45%;
-            //left: 30%;
+            top: 80vw;
+            left: 17vw;
             
-            //transform: translateY(13rem);
-            transform: translate(-17rem, 13rem);
-            animation: moving 3s linear infinite;
-            /*FOR AT DET SKULLE FUNKE Å ANIMERE PÅ DENNE MÅTEN MÅTTE JEG 
-            ENDRE POSISJON. FJERNER JEG ANIMERINGEN HAVNER PERSONEN
-            PÅ ENDEN AV SIDEN*/
+            animation: moving-people 3s linear infinite;
         }
-
-        @keyframes moving {
-            0%, 100% {
-                left: 50%; //Start and end position (center)
-            } 
-            50% {
-                left: calc(50% + 10px);//Middle position (to the right)
-            } 
-        }
- 
 
         #person_with_phone_2 {
-            max-width: 360px;
-            width: 10%;
-
-            top: 40%;
-            left: 45%;
-
-            transform: translateY(13rem);
+            max-width: 14vw;
+            top: 77vw;
+            left: 40vw;
+            
+            animation: moving-people 3s linear infinite;
         }
 
         #person_with_phone_3 {
-            top: 38%;
-            left: 55%;
+            top: 77vw;
+            left: 63vw;
 
-            transform: translateY(13rem);
+            animation: moving-people 3s linear infinite;
         }
-    }
 
     .earth-area {
         min-height: 25%;
-
-        p {
-            display: block;
-            top: 60%;
-            left: 40%;
-        }
-    }  
-}
-
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 3600px;
-    width: 60%;
-    min-height: 450px;
-
-
-    .footer-text {
+    }
+    
+    footer {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-
-        .footer-text_poster {
-            margin: 5px 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10vw;
+        margin: 0 auto;
+        max-width: 90vw;
+        width: 60vw;
+        min-height: 60vw;
+    
+    
+        .footer-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+    
+            .footer-text_poster {
+                margin: 5vw 0;
+            }
+    
+            .footer-text_contact {
+                margin-left: auto;
+            }
         }
-
-        .footer-text_contact {
-            margin-left: auto;
+    
+        .NTNU-logo {
+            width: 30vw; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            align-items: left;
         }
+    
     }
-
-    .NTNU-logo {
-        width: 30%; /* Adjust width as needed */
-        height: auto; /* Maintain aspect ratio */
-        align-items: left;
-    }
-
+}
 }
