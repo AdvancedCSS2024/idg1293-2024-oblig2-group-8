@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 pre {
     font-family: "Marydale", "Open_Sans", Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: larger;
 }
 
 p {
@@ -226,6 +226,22 @@ p {
             75% {transform: translateX(-5%);}
             100% {transform: translateX(0);}
         }
+
+        @keyframes combinedAnimation {
+            0% {
+                filter: grayscale(100%);
+                transform: translateY(5);
+            }
+            50% {
+                filter: grayscale(0%);
+                transform: translateY(15%);
+            }
+            100% {
+                filter: grayscale(100%);
+                transform: translateY(-5);
+            }
+        }
+
         .pollution-face {
             width: 12vw; //Må se om dette blir riktig
             //width: 4vw;
@@ -235,7 +251,7 @@ p {
             width: 3vw;
             left: 17vw;
             top: 81vw;
-            animation: pollution-floating 3s infinite;
+            animation: combinedAnimation 3s linear infinite;
         }    
 
         #pollution-face_2 {
@@ -250,7 +266,8 @@ p {
             width: 4vw;
             top: 75vw;
             left: 32vw;
-            animation: pollution-floating 3s infinite;
+            //animation: pollution-floating 3s infinite;
+            animation: combinedAnimation 3s linear infinite;
         }
 
         #pollution-face_4 {
@@ -283,7 +300,8 @@ p {
             width: 6vw;
             top: 72vw;
             left: 56vw;
-            animation: pollution-floating 3s infinite;
+            //animation: pollution-floating 3s infinite;
+            animation: combinedAnimation 3s linear infinite;
         }
 
         #pollution-face_8 {
@@ -291,7 +309,8 @@ p {
             width: 4vw;
             top: 68vw;
             left: 73vw;
-            animation: pollution-floating 6s infinite; 
+            
+            animation: combinedAnimation 6s linear infinite;
         }
 
         #pollution-face_9 {
@@ -299,7 +318,8 @@ p {
             width: 3vw;
             top: 74vw;
             left: 75vw;
-            animation: pollution-floating 3s infinite;
+  
+            animation: pollution-floating 3s infinite; 
         }
 
         #pollution-face_10 {
@@ -375,12 +395,12 @@ p {
             &__text_2 {
                 position: absolute;
                 top: 95vw;
-                left: 38vw;
+                left: 37vw;
             }
 
             &__text_3 {
                 position: absolute;
-                top: 121vw;
+                top: 120vw;
                 left: 40vw;
             }
 
