@@ -124,6 +124,18 @@ p {
         padding: 0;
     }
 
+    .sun {
+        display: block;
+        position: absolute;
+        width: 12vw;
+        height: 12vw;
+        top: 25vw;
+        left: 30vw;
+        border-radius: 82% 77% 76% 79% / 78% 81% 79% 78%;
+        background-color: yellow;
+        z-index: 10;
+    }
+
     .moon-area {
         min-height: 25%;
 
@@ -289,6 +301,7 @@ p {
             width: 3vw;
             left: 28vw;
             top: 80vw;
+
             animation: pollution-floating 6s infinite;
             animation-delay: -3s;
         }
@@ -395,6 +408,7 @@ p {
         #person_with_phone_3 {
             top: 77vw;
             left: 63vw;
+
             animation: moving-people 3s linear infinite;
         }
     }
