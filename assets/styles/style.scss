@@ -31,7 +31,6 @@
     font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
 }
 
-
 body {
     font-family: "Marydale", Arial, Helvetica, sans-serif;
 }
@@ -144,6 +143,37 @@ p {
             100% {transform: rotate(0deg);}
         }
 
+        @keyframes star_blinking {
+            0% {filter: brightness(100%);}
+            25% {filter: brightness(75%);}
+            50% {filter: brightness(100%);}
+            75% {filter: brightness(125%);}
+            100% {filter: brightness(100%);}
+        }
+
+        @keyframes star_combination {
+            0% {
+                transform: rotate(0deg);
+                filter: brightness(100%);
+            }
+            25% {
+                transform: rotate(20deg);
+                filter: brightness(75%);
+            }
+            50% {
+                transform: rotate(0deg);
+                filter: brightness(100%);
+            }
+            75% {
+                transform: rotate(-20deg);
+                filter: brightness(125%);
+            }
+            100% {
+                transform: rotate(0deg);
+                filter: brightness(100%);
+            }
+        }
+
         .happy_moon {
             max-width: 720px;
             width: 22vw;
@@ -162,7 +192,7 @@ p {
             width: 6vw;
             top: 22vw;
             left: 80vw;
-            animation: star_rotation 8s infinite;
+            animation: star_combination 8s infinite;
         }
 
         #star_2 {
@@ -170,8 +200,8 @@ p {
             top: 30vw;
             left: 84vw;
             transform: rotate(270deg);  // Mirrors the star horizontally.
-            animation: star_rotation 8s infinite;
-            animation-delay: -1.5s;
+            animation: star_combination 8s infinite;
+            animation-delay: -2s;
         }
 
         #app-use_paragraph {
@@ -185,27 +215,28 @@ p {
 
         #car_paragraph {
             display: block;
+            font-size: x-large;
             position: absolute;
-            width: 40vw;
+            width: 80vw;
 
-            top: 49vw;
+            top: 29vw;
             left: 15vw;
 
             path {
                 fill: transparent;
             }
-              
+            
             text {
                 fill: black;
             }
         }
 
         .car {
-            max-width: 540px;
-            width: 18vw;
+            max-width: 80vw;
+            width: 43vw;
 
-            top: 47vw;
-            left: 43vw;
+            top: 43vw;
+            left: 33vw;
         }
     }
 
@@ -251,14 +282,15 @@ p {
             width: 3vw;
             left: 17vw;
             top: 81vw;
-            animation: combinedAnimation 3s linear infinite;
-        }    
+            animation: combinedAnimation 6s linear infinite;
+        }
 
         #pollution-face_2 {
             width: 3vw;
             left: 28vw;
             top: 80vw;
             animation: pollution-floating 6s infinite;
+            animation-delay: -3s;
         }
 
         #pollution-face_3 {
@@ -266,8 +298,8 @@ p {
             width: 4vw;
             top: 75vw;
             left: 32vw;
-            //animation: pollution-floating 3s infinite;
-            animation: combinedAnimation 3s linear infinite;
+            //animation: pollution-floating 6s infinite;
+            animation: combinedAnimation 6s linear infinite;
         }
 
         #pollution-face_4 {
@@ -276,7 +308,8 @@ p {
             top: 84vw;
             left: 34vw;
             z-index: 10;
-            animation: pollution-floating 6s infinite;       
+            animation: pollution-floating 6s infinite;
+            animation-delay: -3s;
         }
 
         #pollution-face_5 {
@@ -284,7 +317,7 @@ p {
             width: 3vw;
             top: 78vw;
             left: 36vw;
-            animation: pollution-floating 3s infinite;
+            animation: pollution-floating 6s infinite;
         }
 
         #pollution-face_6 {
@@ -292,7 +325,8 @@ p {
             width: 3vw;
             top: 73vw;
             left: 43vw;
-            animation: pollution-floating 6s infinite; 
+            animation: pollution-floating 6s infinite;
+            animation-delay: -3s;
         }
 
         #pollution-face_7 {
@@ -300,8 +334,8 @@ p {
             width: 6vw;
             top: 72vw;
             left: 56vw;
-            //animation: pollution-floating 3s infinite;
-            animation: combinedAnimation 3s linear infinite;
+            //animation: pollution-floating 6s infinite;
+            animation: combinedAnimation 6s linear infinite;
         }
 
         #pollution-face_8 {
@@ -309,8 +343,8 @@ p {
             width: 4vw;
             top: 68vw;
             left: 73vw;
-            
             animation: combinedAnimation 6s linear infinite;
+            animation-delay: -3s;
         }
 
         #pollution-face_9 {
@@ -318,8 +352,7 @@ p {
             width: 3vw;
             top: 74vw;
             left: 75vw;
-  
-            animation: pollution-floating 3s infinite; 
+            animation: pollution-floating 6s infinite;
         }
 
         #pollution-face_10 {
@@ -327,7 +360,8 @@ p {
             width: 3vw;
             top: 70vw;
             left: 80vw;
-            animation: pollution-floating 6s infinite; 
+            animation: pollution-floating 6s infinite;
+            animation-delay: -3s;
         }
 
         #pollution-face_11 {
@@ -335,12 +369,12 @@ p {
             width: 3vw;
             top: 80vw;
             left: 82vw;
-            animation: pollution-floating 3s infinite;
+            animation: pollution-floating 6s infinite;
         }
 
         .person_with_phone {
             max-width: 25vw;
-            width: 18vw;     
+            width: 18vw;
         }
 
         #person_with_phone_1 {
@@ -372,9 +406,9 @@ p {
             display: block;
             font-family: "Marydale", Arial, Helvetica, sans-serif;
             font-size: xx-large;
-            width: 30vw;
+            width: 40vw;
             top: 116vw;
-            left: 40vw;
+            left: 32vw;
         }
 
         p {
@@ -463,5 +497,29 @@ p {
             top: 139vw;
             left: 71vw;
         }
+    }
+}
+
+// Font-scaling for small screens
+// At the end to overwrite if necessary.
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: medium;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    p, pre {
+        font-size: x-small;
+    }
+
+    pre {
+        transform: translateX(-16vw);
+    }
+
+    .footer-area > p {
+        font-size: xx-small;
     }
 }
