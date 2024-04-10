@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     display: block;
     margin: 0 auto;
-    max-width: 50vw;
+    max-width: 98vw;
     position: absolute;
     z-index: 80;
 }
@@ -100,8 +100,8 @@ p {
     #heading {
         font-family: "Open_Sans_bold", Arial, Helvetica, sans-serif;
         color: darkblue;
-        margin: 0 75vw 0 20vw;
         top: 10vw;
+        left: 10vw;
 
         #heading-span {
             color: greenyellow;
@@ -109,8 +109,8 @@ p {
     }
 
     #subheading {
-        margin: 0 75vw 0 20vw;
-        top: 15vw;
+        top: 14vw;
+        left: 10vw;
     }
 
     .area {
@@ -141,10 +141,10 @@ p {
 
         .happy_moon {
             max-width: 720px;
-            width: 20vw;
+            width: 22vw;
 
             top: 27vw;
-            left: 58vw;
+            left: 62vw;
 
             animation: moon_hover 10s infinite;
         }
@@ -155,50 +155,52 @@ p {
 
         #star_1 {
             width: 6vw;
-            top: 23vw;
-            left: 73vw;
+            top: 22vw;
+            left: 80vw;
             animation: star_rotation 8s infinite;
         }
 
         #star_2 {
             width: 4vw;
-            top: 28vw;
-            left: 78vw;
+            top: 30vw;
+            left: 84vw;
             transform: rotate(270deg);  // Mirrors the star horizontally.
             animation: star_rotation 8s infinite;
             animation-delay: -1.5s;
         }
 
         #app-use_paragraph {
-            margin: 0 75% 0 20%;
-            max-width: 450px;
-            width: 20%;
+            color: white;
+            width: 28vw;
 
-            top: 45%;
-            left: 30%;
+            top: 37vw;
+            left: 4vw;
             font-size: x-large;
         }
 
         #car_paragraph {
-            margin: 0 75% 0 20%;
-            max-width: 450px;
-            width: 20%;
+            display: block;
+            position: absolute;
+            width: 40vw;
 
-            top: 40%;
-            left: 30%;
-            font-size: x-large;
+            top: 49vw;
+            left: 15vw;
 
-            strong {
-                font-size: larger;
+            path {
+                fill: transparent;
+            }
+              
+            text {
+                fill: black;
             }
         }
 
         .car {
             max-width: 540px;
-            width: 16vw;
+            width: 18vw;
 
-            top: 40vw;
-            left: 44vw;
+            top: 47vw;
+            left: 43vw;
         }
     }
 
@@ -311,7 +313,7 @@ p {
             top: 70vw;
             left: 80vw;
 
-            animation: pollution-floating 5s infinite; 
+            animation: pollution-floating 6s infinite; 
         }
 
         #pollution-face_11 {
@@ -349,43 +351,71 @@ p {
 
             animation: moving-people 3s linear infinite;
         }
+    }
 
     .earth-area {
         min-height: 25%;
-    }
-    
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10vw;
-        margin: 0 auto;
-        max-width: 90vw;
-        width: 60vw;
-        min-height: 60vw;
-    
-    
-        .footer-text {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            justify-content: center;
-    
-            .footer-text_poster {
-                margin: 5vw 0;
-            }
-    
-            .footer-text_contact {
-                margin-left: auto;
-            }
+
+        h2 {
+            display: block;
+            font-family: "Marydale", Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            width: 30vw;
+            top: 116vw;
+            left: 40vw;
         }
-    
-        .NTNU-logo {
-            width: 30vw; /* Adjust width as needed */
-            height: auto; /* Maintain aspect ratio */
-            align-items: left;
+
+        p {
+            display: block;
+            top: 93vw;
+            left: 40vw;
         }
-    
     }
 }
+    
+.footer-area {
+    display: block;
+    min-height: 20%;
+
+    .NTNU-logo {
+        width: 30vw; /* Adjust width as needed */
+        top: 138vw;
+        left: 5vw;
+    }
+
+    .footer-text {
+        color: white;
+
+        // Using some nested SCSS and BEM here. - Jon
+        &__moon-trip {
+            color: black;
+            font-size: smaller;
+            padding: 0;
+            width: 98vw;
+            top: 133.5vw;
+            left: 5vw;
+
+            &--2 {
+                top: 135vw;
+            }
+        }
+
+        &__poster {
+            top: 139vw;
+            left: 37vw;
+
+            a {
+                color: white;
+
+                a:visited {
+                    color: #92cfb8;
+                }
+            }
+        }
+
+        &__contact {
+            top: 139vw;
+            left: 71vw;
+        }
+    }
 }
