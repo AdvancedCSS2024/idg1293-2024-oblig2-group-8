@@ -1,1 +1,361 @@
-@import"https://p.typekit.net/p.css?s=1&k=zkj2jid&ht=tk&f=27034.27040.27042&a=164531715&app=typekit&e=css";@font-face{font-family:"Open_Sans";src:url(../fonts/static/OpenSans-Regular.ttf),url(../fonts/static/OpenSans-Light.ttf)}@font-face{font-family:"Open_Sans_bold";src:url(../fonts/static/OpenSans-Bold.ttf),url(../fonts/static/OpenSans-Medium.ttf)}@font-face{font-family:"Marydale";src:url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal}@font-face{font-family:"Marydale_bold";src:url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:"Marydale_black";src:url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:900;font-stretch:normal}body{font-family:"Marydale",Arial,Helvetica,sans-serif}h1,h2,h3,h4,h5,h6{font-family:"Open_Sans",Arial,Helvetica,sans-serif;display:block;margin:0 auto;max-width:49ch;width:30%;position:absolute;text-align:center}p{display:block;max-width:42ch}.vector-image{display:block;position:absolute}.poster-main{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;margin:0 auto;max-width:3600px;width:90%;min-height:450px;background-image:url(../vectors/poster-2_full_background.svg);background-repeat:no-repeat;background-size:cover}@media screen and (min-width: 1000px){.poster-main{min-height:800px}}@media screen and (min-width: 1200px){.poster-main{min-height:960px}}@media screen and (min-width: 1600px){.poster-main{min-height:1320px}}@media screen and (min-width: 2000px){.poster-main{min-height:1600px}}.poster-main #heading{font-family:"Open_Sans_bold",Arial,Helvetica,sans-serif;color:#00008b;margin:0 75% 0 20%;top:10%}.poster-main #heading #heading-span{color:#adff2f}.poster-main #subheading{margin:0 75% 0 20%;top:15%}.poster-main .area{margin:inherit;max-width:3456px;width:96%;padding:0}.poster-main .moon-area{min-height:25%}.poster-main .moon-area .happy_moon{max-width:720px;width:12%;top:23%;left:56%}.poster-main .moon-area .yellow_star{max-width:180px}.poster-main .moon-area #star_1{top:20%;left:66%;width:4%}.poster-main .moon-area #star_2{top:30%;left:69%;width:3%;transform:rotate(270deg)}.poster-main .moon-area #car_paragraph{margin:0 75% 0 20%;max-width:450px;width:20%;top:40%;left:30%;font-size:x-large}.poster-main .moon-area #car_paragraph strong{font-size:larger}.poster-main .moon-area .car{max-width:540px;width:12%;top:40%;left:44%}.poster-main .people-area{min-height:25%}.poster-main .people-area .pollution-face{max-width:180px;width:4%}.poster-main .people-area #pollution-face_1{max-width:180px;width:2%;transform:translate(19rem, 4rem);animation:cycles 1s infinite}@keyframes cycles{0%{transform:translate(19rem, 4rem)}50%{transform:translate(19rem, 5rem)}100%{transform:translate(19rem, 4rem)}}.poster-main .people-area #pollution-face_2{max-width:180px;width:2%;transform:translate(26rem, 3.5rem)}.poster-main .people-area #pollution-face_3{max-width:180px;width:3%;transform:translateX(26rem)}.poster-main .people-area #pollution-face_4{max-width:180px;width:2%;transform:translate(28rem, 6rem)}.poster-main .people-area #pollution-face_5{max-width:180px;width:2%;transform:translate(29rem, 2rem)}.poster-main .people-area #pollution-face_6{max-width:180px;width:2%;transform:translateX(33rem)}.poster-main .people-area #pollution-face_7{max-width:180px;width:5%;transform:translate(37rem, -0.5rem)}.poster-main .people-area #pollution-face_8{max-width:180px;width:3%;transform:translate(43rem, -2rem)}.poster-main .people-area #pollution-face_9{max-width:180px;width:2%;transform:translate(45rem, 1rem)}.poster-main .people-area #pollution-face_10{max-width:180px;width:2%;transform:translate(50rem, -1rem)}.poster-main .people-area #pollution-face_11{max-width:180px;width:2%;transform:translate(51rem, 5rem)}.poster-main .people-area .person_with_phone{max-width:540px;width:12%}.poster-main .people-area #person_with_phone_1{top:45%;transform:translate(-17rem, 13rem);animation:moving 3s linear infinite}@keyframes moving{0%,100%{left:50%}50%{left:calc(50% + 10px)}}.poster-main .people-area #person_with_phone_2{max-width:360px;width:10%;top:40%;left:45%;transform:translateY(13rem)}.poster-main .people-area #person_with_phone_3{top:38%;left:55%;transform:translateY(13rem)}.poster-main .earth-area{min-height:25%}footer{display:flex;justify-content:space-between;align-items:center;padding:10px;margin:0 auto;max-width:3600px;width:60%;min-height:450px}footer .footer-text{display:flex;flex-direction:column;align-items:flex-end;justify-content:center}footer .footer-text .footer-text_poster{margin:5px 0}footer .footer-text .footer-text_contact{margin-left:auto}footer .NTNU-logo{width:30%;height:auto;align-items:left}/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+@import url("https://p.typekit.net/p.css?s=1&k=zkj2jid&ht=tk&f=27034.27040.27042&a=164531715&app=typekit&e=css");
+@font-face {
+  font-family: "Open_Sans";
+  src: url(../fonts/static/OpenSans-Regular.ttf), url(../fonts/static/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: "Open_Sans_bold";
+  src: url(../fonts/static/OpenSans-Bold.ttf), url(../fonts/static/OpenSans-Medium.ttf);
+}
+@font-face {
+  font-family: "Marydale";
+  src: url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/3a9361/00000000000000007735b54c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Marydale_bold";
+  src: url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/a8ff5a/00000000000000007735b550/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: "Marydale_black";
+  src: url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/5c2715/00000000000000007735b54e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+body {
+  font-family: "Marydale", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open_Sans", Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0 auto;
+  max-width: 49ch;
+  width: 30%;
+  position: absolute;
+  text-align: center;
+  z-index: 90;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+  max-width: 50vw;
+  position: absolute;
+  z-index: 80;
+}
+
+.vector-image {
+  display: block;
+  position: absolute;
+}
+
+.poster-main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 3600px;
+  width: 96vw;
+  min-height: 450px;
+}
+.poster-main .background-vector {
+  margin: 0 auto;
+  position: absolute;
+  width: 96vw;
+  z-index: -100;
+}
+@media screen and (min-width: 1000px) {
+  .poster-main {
+    min-height: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .poster-main {
+    min-height: 960px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .poster-main {
+    min-height: 1320px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .poster-main {
+    min-height: 1600px;
+  }
+}
+.poster-main #heading {
+  font-family: "Open_Sans_bold", Arial, Helvetica, sans-serif;
+  color: darkblue;
+  margin: 0 75vw 0 20vw;
+  top: 10vw;
+}
+.poster-main #heading #heading-span {
+  color: greenyellow;
+}
+.poster-main #subheading {
+  margin: 0 75vw 0 20vw;
+  top: 15vw;
+}
+.poster-main .area {
+  margin: inherit;
+  max-width: 3456px;
+  width: 96vw;
+  padding: 0;
+}
+.poster-main .moon-area {
+  min-height: 25%;
+}
+@keyframes moon_hover {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes star_rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.poster-main .moon-area .happy_moon {
+  max-width: 720px;
+  width: 20vw;
+  top: 27vw;
+  left: 58vw;
+  animation: moon_hover 10s infinite;
+}
+.poster-main .moon-area .yellow_star {
+  max-width: 180px;
+}
+.poster-main .moon-area #star_1 {
+  width: 6vw;
+  top: 23vw;
+  left: 73vw;
+  animation: star_rotation 8s infinite;
+}
+.poster-main .moon-area #star_2 {
+  width: 4vw;
+  top: 28vw;
+  left: 78vw;
+  transform: rotate(270deg);
+  animation: star_rotation 8s infinite;
+  animation-delay: -1.5s;
+}
+.poster-main .moon-area #app-use_paragraph {
+  margin: 0 75% 0 20%;
+  max-width: 450px;
+  width: 20%;
+  top: 45%;
+  left: 30%;
+  font-size: x-large;
+}
+.poster-main .moon-area #car_paragraph {
+  margin: 0 75% 0 20%;
+  max-width: 450px;
+  width: 20%;
+  top: 40%;
+  left: 30%;
+  font-size: x-large;
+}
+.poster-main .moon-area #car_paragraph strong {
+  font-size: larger;
+}
+.poster-main .moon-area .car {
+  max-width: 540px;
+  width: 16vw;
+  top: 40vw;
+  left: 44vw;
+}
+.poster-main .people-area {
+  min-height: 25%;
+}
+@keyframes pollution-floating {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.poster-main .people-area .pollution-face {
+  max-width: 180px;
+  width: 4%;
+}
+.poster-main .people-area #pollution-face_1 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(19rem, 4rem);
+  animation: cycles 1s infinite;
+}
+@keyframes cycles {
+  0% {
+    transform: translate(19rem, 4rem);
+  }
+  50% {
+    transform: translate(19rem, 5rem);
+  }
+  100% {
+    transform: translate(19rem, 4rem);
+  }
+}
+.poster-main .people-area #pollution-face_2 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(26rem, 3.5rem);
+}
+.poster-main .people-area #pollution-face_3 {
+  max-width: 180px;
+  width: 3%;
+  transform: translateX(26rem);
+}
+.poster-main .people-area #pollution-face_4 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(28rem, 6rem);
+}
+.poster-main .people-area #pollution-face_5 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(29rem, 2rem);
+}
+.poster-main .people-area #pollution-face_6 {
+  max-width: 180px;
+  width: 2%;
+  transform: translateX(33rem);
+}
+.poster-main .people-area #pollution-face_7 {
+  max-width: 180px;
+  width: 5%;
+  transform: translate(37rem, -0.5rem);
+}
+.poster-main .people-area #pollution-face_8 {
+  max-width: 180px;
+  width: 3%;
+  transform: translate(43rem, -2rem);
+}
+.poster-main .people-area #pollution-face_9 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(45rem, 1rem);
+}
+.poster-main .people-area #pollution-face_10 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(50rem, -1rem);
+}
+.poster-main .people-area #pollution-face_11 {
+  max-width: 180px;
+  width: 2%;
+  transform: translate(51rem, 5rem);
+}
+.poster-main .people-area .person_with_phone {
+  max-width: 540px;
+  width: 12%;
+}
+.poster-main .people-area #person_with_phone_1 {
+  top: 45%;
+  transform: translate(-17rem, 13rem);
+  animation: moving 3s linear infinite;
+  /*FOR AT DET SKULLE FUNKE Å ANIMERE PÅ DENNE MÅTEN MÅTTE JEG 
+  ENDRE POSISJON. FJERNER JEG ANIMERINGEN HAVNER PERSONEN
+  PÅ ENDEN AV SIDEN*/
+}
+@keyframes moving {
+  0%, 100% {
+    left: 50%;
+  }
+  50% {
+    left: calc(50% + 10px);
+  }
+}
+.poster-main .people-area #person_with_phone_2 {
+  max-width: 360px;
+  width: 10%;
+  top: 40%;
+  left: 45%;
+  transform: translateY(13rem);
+}
+.poster-main .people-area #person_with_phone_3 {
+  top: 38%;
+  left: 55%;
+  transform: translateY(13rem);
+}
+.poster-main .earth-area {
+  min-height: 25%;
+}
+.poster-main .earth-area p {
+  display: block;
+  top: 60%;
+  left: 40%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 3600px;
+  width: 60%;
+  min-height: 450px;
+}
+footer .footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer .footer-text .footer-text_poster {
+  margin: 5px 0;
+}
+footer .footer-text .footer-text_contact {
+  margin-left: auto;
+}
+footer .NTNU-logo {
+  width: 30%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  align-items: left;
+}/*# sourceMappingURL=style.css.map */
