@@ -162,184 +162,203 @@ p {
     }
 
     .people-area {
-        min-height: 25%;
+        min-height: 80vw;
         
 
         .pollution-face {
-            max-width: 180px;
-            width: 4%;
+            max-width: 70vw; //Må se om dette blir riktig
+            //width: 4vw;
         } 
 
 
       
         #pollution-face_1 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 4vw;
 
-            //left: 8%;
+            left: 8vw;
 
-            transform: translate(19rem, 4rem);
-            animation: cycles 1s infinite;
+            //transform: translate(19rem, 4rem);
+            animation: cycle 1s infinite;
         }     
 
-        @keyframes cycles {
-            0% {transform: translate(19rem, 4rem);}
-            50% {transform: translate(19rem, 5rem);}
-            100% {transform: translate(19rem, 4rem);}
+        @keyframes cycle {
+            0%, 100% {
+                top: 70%; //Start and end position
+            } 
+            50% {
+                top: calc(70% + 1%);//Middle position (to the right)
+            } 
         }
 
 
-
         #pollution-face_2 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 12%;
+            left: 12vw;
 
-            transform: translate(26rem, 3.5rem);
+            animation: cycle2 2s infinite;
+        }
+
+        @keyframes cycle2 {
+            0%, 100% {
+                top: 70%; //Start and end position
+            } 
+            50% {
+                top: calc(70% + 1%);//Middle position (to the right)
+            } 
         }
        
        
 
         #pollution-face_3 {
-            max-width: 180px;
-            width: 3%;
+            max-width: 70vw;
+            width: 3vw;
 
-            //left: 16%;
+            left: 16vw;
 
-            transform: translateX(26rem);
-            //animation: cycles 1s infinite;
+            animation: cycle 1s infinite;
         }
+
 
         #pollution-face_4 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 20%;
+            left: 20vw;
 
-            transform: translate(28rem, 6rem);   
-            //animation: cycles 1s infinite;         
+            animation: cycle2 2s infinite;       
         }
+
+
 
         #pollution-face_5 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 24%;
+            left: 24vw;
 
-            transform: translate(29rem, 2rem); //Moves the element 31rem to the right, and 2rem down from its current position
-            //animation: cycles 1s infinite;
+            animation: cycle 1s infinite;
         }
 
+
+
         #pollution-face_6 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 24%;
+            left: 28vw;
 
-            transform: translateX(33rem); //Moves the element 35rem to the right
-            //animation: cycles 1s infinite;
+            animation: cycle2 2s infinite; 
         }
 
         #pollution-face_7 {
-            max-width: 180px;
-            width: 5%;
+            max-width: 70vw;
+            width: 5vw;
 
-            //left: 24%;
+            left: 30vw;
 
-            transform: translate(37rem, -0.5rem);
-            //animation: cycles 1s infinite;
+            animation: cycle 1s infinite;
         }
 
         #pollution-face_8 {
-            max-width: 180px;
-            width: 3%;
+            max-width: 70vw;
+            width: 3vw;
 
-            //left: 24%;
+            left: 32vw;
 
-            transform: translate(43rem, -2rem);
-            //animation: cycles 1s infinite;
+            animation: cycle2 2s infinite; 
         }
 
         #pollution-face_9 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 24%;
+            left: 34vw;
 
-            transform: translate(45rem, 1rem);
-            //animation: cycles 1s infinite;
+            animation: cycle 1s infinite;
         }
 
         #pollution-face_10 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 24%;
+            left: 36vw;
 
-            transform: translate(50rem, -1rem);
-            //animation: cycles 1s infinite;
+            animation: cycle2 2s infinite; 
         }
 
         #pollution-face_11 {
-            max-width: 180px;
-            width: 2%;
+            max-width: 70vw;
+            width: 2vw;
 
-            //left: 24%;
+            left: 38vw;
 
-            transform: translate(51rem, 5rem);
-            //animation: cycles 1s infinite;
+            animation: cycle 1s infinite;
         }
 
 
         .person_with_phone {
-            max-width: 540px;
-            width: 12%;
+            max-width: 80vw;
+            width: 12vw;
             
         }
 
         #person_with_phone_1 {
-            top: 45%;
-            //left: 30%;
+            top: 45vw;
             
-            //transform: translateY(13rem);
-            transform: translate(-17rem, 13rem);
-            animation: moving 3s linear infinite;
-            /*FOR AT DET SKULLE FUNKE Å ANIMERE PÅ DENNE MÅTEN MÅTTE JEG 
-            ENDRE POSISJON. FJERNER JEG ANIMERINGEN HAVNER PERSONEN
-            PÅ ENDEN AV SIDEN*/
+            animation: moving1 3s linear infinite;
         }
 
-        @keyframes moving {
+        @keyframes moving1 {
             0%, 100% {
-                left: 50%; //Start and end position (center)
+                left: 25%; //Start and end position (center)
             } 
             50% {
-                left: calc(50% + 10px);//Middle position (to the right)
+                left: calc(25% + 1%);//Middle position (to the right)
             } 
         }
  
 
         #person_with_phone_2 {
-            max-width: 360px;
-            width: 10%;
+            max-width: 80vw;
+            width: 10vw;
 
-            top: 40%;
-            left: 45%;
+            top: 40vw;
+            //left: 45%;
+            animation: moving2 3s linear infinite;
+        }
 
-            transform: translateY(13rem);
+        @keyframes moving2 {
+            0%, 100% {
+                left: 50%; //Start and end position (center)
+            } 
+            50% {
+                left: calc(50% + 1%);//Middle position (to the right)
+            } 
         }
 
         #person_with_phone_3 {
-            top: 38%;
-            left: 55%;
+            top: 38vw;
+            //left: 55%;
 
-            transform: translateY(13rem);
+            //transform: translateY(13rem);
+            animation: moving3 3s linear infinite;
+        }
+
+        @keyframes moving3 {
+            0%, 100% {
+                left: 70%; //Start and end position
+            } 
+            50% {
+                left: calc(70% + 1%);//Middle position (to the right)
+            } 
         }
     }
 
     .earth-area {
-        min-height: 25%;  
+        min-height: 25vw;  
     }  
 }
 
@@ -348,11 +367,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10vw;
     margin: 0 auto;
-    max-width: 3600px;
-    width: 60%;
-    min-height: 450px;
+    max-width: 90vw;
+    width: 60vw;
+    min-height: 60vw;
 
 
     .footer-text {
@@ -362,7 +381,7 @@ footer {
         justify-content: center;
 
         .footer-text_poster {
-            margin: 5px 0;
+            margin: 5vw 0;
         }
 
         .footer-text_contact {
@@ -371,7 +390,7 @@ footer {
     }
 
     .NTNU-logo {
-        width: 30%; /* Adjust width as needed */
+        width: 30vw; /* Adjust width as needed */
         height: auto; /* Maintain aspect ratio */
         align-items: left;
     }
