@@ -12,3 +12,5 @@ We created text-path and car-path in illustrator. We used animateMotion to anima
 The moon are animated using keyframes, so it moves up and down, simulating how the moon would look like in real life.
 
 We used keyframes to animate the two stars next to the moon so they rotate. We thought rotating the stars would make them "sparkle".
+
+CSS drawing was used to create the sun at top of the poster. Because sometimes when its dark, you can see the sun.

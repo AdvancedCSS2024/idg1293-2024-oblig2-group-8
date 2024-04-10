@@ -125,6 +125,18 @@ p {
         padding: 0;
     }
 
+    .sun {
+        display: block;
+        position: absolute;
+        width: 12vw;
+        height: 12vw;
+        top: 25vw;
+        left: 30vw;
+        border-radius: 82% 77% 76% 79% / 78% 81% 79% 78%;
+        background-color: yellow;
+        z-index: 10;
+    }
+
     .moon-area {
         min-height: 25%;
 
@@ -251,6 +263,7 @@ p {
             width: 3vw;
             left: 17vw;
             top: 81vw;
+
             animation: combinedAnimation 3s linear infinite;
         }    
 
@@ -258,6 +271,7 @@ p {
             width: 3vw;
             left: 28vw;
             top: 80vw;
+
             animation: pollution-floating 6s infinite;
         }
 
@@ -266,7 +280,7 @@ p {
             width: 4vw;
             top: 75vw;
             left: 32vw;
-            //animation: pollution-floating 3s infinite;
+            
             animation: combinedAnimation 3s linear infinite;
         }
 
@@ -276,6 +290,7 @@ p {
             top: 84vw;
             left: 34vw;
             z-index: 10;
+
             animation: pollution-floating 6s infinite;       
         }
 
@@ -284,6 +299,7 @@ p {
             width: 3vw;
             top: 78vw;
             left: 36vw;
+
             animation: pollution-floating 3s infinite;
         }
 
@@ -292,6 +308,7 @@ p {
             width: 3vw;
             top: 73vw;
             left: 43vw;
+
             animation: pollution-floating 6s infinite; 
         }
 
@@ -300,7 +317,7 @@ p {
             width: 6vw;
             top: 72vw;
             left: 56vw;
-            //animation: pollution-floating 3s infinite;
+            
             animation: combinedAnimation 3s linear infinite;
         }
 
@@ -327,6 +344,7 @@ p {
             width: 3vw;
             top: 70vw;
             left: 80vw;
+
             animation: pollution-floating 6s infinite; 
         }
 
@@ -335,6 +353,7 @@ p {
             width: 3vw;
             top: 80vw;
             left: 82vw;
+
             animation: pollution-floating 3s infinite;
         }
 
@@ -361,6 +380,7 @@ p {
         #person_with_phone_3 {
             top: 77vw;
             left: 63vw;
+
             animation: moving-people 3s linear infinite;
         }
     }
