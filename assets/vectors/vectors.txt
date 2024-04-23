@@ -1,0 +1,3 @@
+Vectors extracted from the PDF-files are stored here for use in the later web-coding and web-design.
+  * Vectors prefixed with "poster-1_" are from the first poster (extracted by Jon).
+  * Vectors prefixed with "poster-2_" are from the second poster (extracted by Cecilie).
